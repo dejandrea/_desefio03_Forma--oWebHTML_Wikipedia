@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wdth,wght@0,100..200,100..900;1,100..200,100..900&display=swap');
+
+body, html {
+    margin: 0;
+    padding: 0;
+    /* font-family: "Advent Pro", sans-serif; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul { list-style: none; padding-left: 5px; }
+a { color:blue; text-decoration: none;}
+header{
+
+}
+.logo{
+
+}
+.logo img{
+
+}
+.bar {
+    background-color: #f9f9fb;
+    padding:15px;
+    border-top: solid 1px #cdcdcd;
+    border-bottom: solid 1px #cdcdcd;
+}
+.content {
+    max-width: 1440px;
+    margin: auto;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 2rem;
+    grid-template-areas: "sidebar main anchors";
+    grid-template-columns: minmax(0,18rem) minmax(0,2.5fr) minmax(0,15rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+}
+.sidebar {
+    
+    /* position: fixed; */
+}
+.main{
+    max-height: 450px;
+    overflow: auto;
+    border-left: solid 1px #cdcdcd;
+    border-right: solid 1px #cdcdcd;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+}
+h1{
+    font-size: xx-large;
+}
+.main section p{
+    text-align: justify;
+}
+
+figure {
+    text-align: center;
+    border: 1px solid rgb(124, 124, 124);
+    background-color: #eeeeee;
+    width: 200px;
+    padding: 5px;
+}
+figure img{
+    width: 200px;
+}
+figcaption{
+    font-size: x-small;
+}
+.anchors {
+    padding-left: 5px;
+}
+
+.footer {
+    min-height: 50px;
+    border-top: solid 1px #cdcdcd;
+}
+
+.div-imagens{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+blockquote{
+    background-color: rgba(127, 255, 212, 0.477);
+    padding: 5px;
+    font-family:cursive;
+    font-size: small;
+}
+blockquote figcaption{
+    text-align: right;
+}
+
+
